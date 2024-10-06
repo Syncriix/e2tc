@@ -1,6 +1,6 @@
 # Hugo Theme Bootstrap Skeleton
 
-The starter template for [Hugo Bootstrap Theme](https://github.com/razonyang/hugo-theme-bootstrap) that install the theme as a Hugo module.
+The starter template for [Hugo Bootstrap Theme](https://github.com/syncriix/hugo-theme-bootstrap) that install the theme as a Hugo module.
 
 ## Demo
 
@@ -103,14 +103,14 @@ $ hugo server
 ## Upgrade theme
 
 ```shell
-$ hugo mod get github.com/razonyang/hugo-theme-bootstrap@master
+$ hugo mod get github.com/syncriix/hugo-theme-bootstrap@master
 $ hugo mod npm pack
 $ npm update
 $ git add go.mod go.sum package.json package-lock.json
 $ git commit -m 'Update the theme'
 ```
 
-You can also replace the `master` with stable [releases](https://github.com/razonyang/hugo-theme-bootstrap/releases).
+You can also replace the `master` with stable [releases](https://github.com/syncriix/hugo-theme-bootstrap/releases).
 
 ## Deployment
 

@@ -1,5 +1,5 @@
 ```bash
-$ hugo mod get github.com/razonyang/hugo-theme-bootstrap@[version]
+$ hugo mod get github.com/syncriix/hugo-theme-bootstrap@[version]
 $ hugo mod tidy
 $ hugo mod npm pack
 $ npm update

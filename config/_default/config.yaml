@@ -46,7 +46,7 @@ permalinks:
 
 module:
   imports:
-    - path: github.com/razonyang/hugo-theme-bootstrap
+    - path: github.com/syncriix/hugo-theme-bootstrap
 #   proxy: https://goproxy.cn
 
 # services:

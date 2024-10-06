@@ -27,9 +27,9 @@ While this installation method is still widely used, we recommend to install the
 ## Create a New Site from Scratch
 
 ```bash
-$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton myblog
+$ git clone https://github.com/syncriix/hugo-theme-bootstrap-skeleton myblog
 $ cd myblog
-$ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
+$ git submodule add https://github.com/syncriix/hugo-theme-bootstrap themes/hugo-theme-bootstrap
 $ sed -i "s/theme:.*/theme: hugo-theme-bootstrap/g" config/_default/config.yaml
 $ rm go.mod go.sum
 $ hugo mod npm pack
@@ -39,15 +39,15 @@ $ hugo server
 
 > If you're using Windows, use `xcopy .\themes\hugo-theme-bootstrap\exampleSite /E` instead.
 
-> `sed` replaces the `theme: github.com/razonyang/hugo-theme-bootstrap` with `theme: hugo-theme-bootstrap`.
+> `sed` replaces the `theme: github.com/syncriix/hugo-theme-bootstrap` with `theme: hugo-theme-bootstrap`.
 
 
 ## Install on an existing site
 
 ```bash
 $ cd myblog
-$ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
-$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton /tmp/hbs-skeleton
+$ git submodule add https://github.com/syncriix/hugo-theme-bootstrap themes/hugo-theme-bootstrap
+$ git clone https://github.com/syncriix/hugo-theme-bootstrap-skeleton /tmp/hbs-skeleton
 $ mkdir config
 $ cp -a /tmp/hbs-skeleton/config/* ./config
 $ cp -r /tmp/hbs-skeleton/content/* ./content

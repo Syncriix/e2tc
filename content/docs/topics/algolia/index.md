@@ -62,11 +62,11 @@ You can upload the index file manually via the Algolia dashboard for testing.
 
 #### CLI Tool
 
-I wrote a [CLI tool](https://github.com/razonyang/hugo-theme-bootstrap-algolia) for uploading the index file, it can be integrated with your CI & CD tools easilly.
+I wrote a [CLI tool](https://github.com/syncriix/hugo-theme-bootstrap-algolia) for uploading the index file, it can be integrated with your CI & CD tools easilly.
 
 #### GitHub Action
 
-I also wrote a [GitHub actions](https://github.com/razonyang/hugo-theme-bootstrap-algolia-action) if you're using GitHub to host your repository.
+I also wrote a [GitHub actions](https://github.com/syncriix/hugo-theme-bootstrap-algolia-action) if you're using GitHub to host your repository.
 
 Create the `.github/workflows/algolia.yml` under your site root with the following content. 
 
@@ -86,7 +86,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build & upload Algolia index
-        uses: razonyang/hugo-theme-bootstrap-algolia-action@v0.1.0
+        uses: syncriix/hugo-theme-bootstrap-algolia-action@v0.1.0
         with:
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}

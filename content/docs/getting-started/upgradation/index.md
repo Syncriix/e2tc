@@ -23,7 +23,7 @@ This article explains how to upgrade the theme correctly.
 
 ## Versions
 
-Before upgrading, it is necessary to introduce what a version is. In addition to the relative stable versions listed in [Releases](https://github.com/razonyang/hugo-theme-bootstrap/releases), you can use a branch such as `master`, `develop`, or even choose a certain `commit`.
+Before upgrading, it is necessary to introduce what a version is. In addition to the relative stable versions listed in [Releases](https://github.com/syncriix/hugo-theme-bootstrap/releases), you can use a branch such as `master`, `develop`, or even choose a certain `commit`.
 
 > This article will use the `[version]` placeholder to represent the version, just replace it with the version you want to upgrade to.
 

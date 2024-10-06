@@ -58,7 +58,7 @@ $ hugo mod init github.com/me/my-blog
 ### Declare `hugo-theme-bootstrap` module as a site dependency
 
 ```bash
-$ hugo mod get github.com/razonyang/hugo-theme-bootstrap@[version]
+$ hugo mod get github.com/syncriix/hugo-theme-bootstrap@[version]
 ```
 
 The `[version]` can be one of [Releases](https://github.com/syncriix/hugo-theme-bootstrap/releases), branches or even commits.
