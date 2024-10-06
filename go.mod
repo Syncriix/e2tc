@@ -1,4 +1,4 @@
-module github.com/syncriix/e2tc
+module github.com/syncriix/hugo-theme-bootstrap-skeleton
 
 go 1.18
 
